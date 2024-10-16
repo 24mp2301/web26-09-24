@@ -1,0 +1,31 @@
+/* Styling the side navigation bar */
+.sidenav {
+  height: 100%; /* Full height of the document */
+  width: 160px; /* Fixed width */
+  position: fixed; /* Fixes the navigation to the top-left corner */
+  top: 0;
+  left: 0;
+  background-color: green; /* Background color */
+  padding-top: 20px; /* Padding at the top */
+}
+
+/* Styling the links inside the sidenav */
+.sidenav a {
+  display: block; /* Set each link as a block element */
+  color: white; /* White text color */
+  padding: 6px 8px 6px 16px; /* Padding for top, right, bottom, left */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Highlight links on mouse hover */
+.sidenav a:hover {
+  color: red; /* Change text color to red on hover */
+}
+
+/* Main content styling */
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px; /* 0px top/bottom and 10px left/right padding */
+  height: 2000px; /* Height of the main content */
+  font-family: sans-serif; /* Apply a clean font style */
+}
